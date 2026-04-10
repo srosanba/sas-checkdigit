@@ -1,0 +1,3 @@
+When keying numeric ID values, the two most common typos are single-digit errors and adjacent-digit transposition. The Gumm algorithm (1985) uses matrix algebra to calculate a check digit which, when added to the end of a base numeric ID, protects against both of these types of typos.
+
+This repo contains a SAS macro (checkdigit.sas) that implements the Gumm algorith, as well as example calling program (run_checkdigit.sas). The macro has 2 modes: check digit generation (ie, adding a check digit to an ID) and check digit validation (ie, checking that the last digit of an ID is correct given the digits that preceed it). 
