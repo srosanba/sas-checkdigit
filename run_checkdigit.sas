@@ -2,7 +2,7 @@
 
 %include "H:\GitHub\srosanba\sas-checkdigit\checkdigit.sas";
 
-*--- list of numeric values (without check digits) ---;
+*--- generate a list of plain numeric values (without check digits) ---;
 
 data preid;
    do i = 1001 to 1200;
