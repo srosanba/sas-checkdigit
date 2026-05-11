@@ -1,5 +1,10 @@
-The Gumm/Verhoeff check digit algorithm adds one extra digit to a number so that:
-* If you mistype one digit, it's detected
-* If you swap two neighboring digits (like 23 -> 32), it's detected
+The Gumm (1985) / Verhoeff check digit algorithm adds an extra digit to a number to help detect common data-entry errors:
 
-This repository contains a SAS macro (checkdigit.sas) that implements the Gumm/Verhoeff algorith. It also contains an example calling program (run_checkdigit.sas). The macro has 2 modes: check digit generation (ie, adding a check digit to an ID) and check digit validation (ie, checking that the last digit of an ID is correct given the digits that preceed it).
+- Single-digit errors (e.g., mistyping one digit)
+- Adjacent transpositions (e.g., `23 → 32`)
+
+This repository provides a SAS macro (`checkdigit.sas`) that implements the Gumm/Verhoeff algorithm, along with an example driver program (`run_checkdigit.sas`).
+
+The macro supports two modes:
+- **Check digit generation**: Appends a valid check digit to a numeric ID
+- **Check digit validation**: Verifies that the final digit of an ID is consistent with the preceding digits
