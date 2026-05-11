@@ -1,3 +1,5 @@
+*--- path where YOUR copy of the macro has been saved ---;
+
 %include "H:\GitHub\srosanba\sas-checkdigit\checkdigit.sas";
 
 *--- list of numeric values (without check digits) ---;
