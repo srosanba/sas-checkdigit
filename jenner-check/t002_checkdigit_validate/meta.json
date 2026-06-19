@@ -1,0 +1,8 @@
+{
+  "bundle": "t002_checkdigit_validate",
+  "source_file": "CheckDigit.sas",
+  "source_blob_sha": "9c749df8c0fe4b145c29bce0c4bff42492080a9b",
+  "source_commit": "7d78f8e46b0da9acaf7e4fe6d663f1bc279d3bbf",
+  "tier": "real_data",
+  "notes": "Gumm/Verhoeff check-digit VALIDATION (the README's 'exercise for the reader'). D5 multiplication and permutation tables plus the validation loop (start at permutation row 0, valid when final D5 product is 0) are taken verbatim from CheckDigit.sas. Input IDs and expected results (OK/OK/Digit mismatch/OK) are the README Example 2 worked example."
+}

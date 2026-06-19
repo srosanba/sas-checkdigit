@@ -1,0 +1,8 @@
+{
+  "bundle": "t001_checkdigit_generate",
+  "source_file": "CheckDigit.sas",
+  "source_blob_sha": "9c749df8c0fe4b145c29bce0c4bff42492080a9b",
+  "source_commit": "7d78f8e46b0da9acaf7e4fe6d663f1bc279d3bbf",
+  "tier": "real_data",
+  "notes": "Gumm/Verhoeff check-digit GENERATION. D5 multiplication table, permutation table, and inverse table plus the generation loop are taken verbatim from CheckDigit.sas; called inline from a DATA step. Input IDs and expected check digits (1,5,7,2) are the README Example 1 worked example."
+}
